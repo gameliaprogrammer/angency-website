@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <title>Agency Website</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <img src="./images/logo.svg" alt="" class="logo"></img>
+      <div class="links">
+        <ul>
+          <li class="active">Home</li>
+          <li>Case Studies</li>
+          <li>Blog</li>
+          <li>About us</li>
+        </ul>
+        <button class="navbar-button">Book a Call</button>
+      </div>
+      <img 
+         class="meun-icon" 
+         id="menu-icon" 
+         src="./images/menu-icon.png"
+         alt=""
+         onclick="toggleMobileMenu()" />
+    </div>
+    <div class="hero">
+      <div class="text">
+        <h2>We make great digital products for <span>innovatiove</span>brands.</h2>
+        <p>Get your desired design services from our talented designers, 
+          around the world at a reasonable cost
+        </p>
+      </div>
+      <div class="cta">
+        <div class="input-button-combo">
+          <input type="text" placeholder="Your email "/>
+          <img src="./images/mail.svg" />
+        </div>
+        <div class="cta-text">
+          <div class="rating">
+            <p>4.6/5.0</p>
+            <img src="./images/rating.svg"/>
+          </div>
+          <p>15+ Bussinesses, 35+ Happy clients.</p>
+        </div>
+      </div>
+    </div>
+<!-- services starts from here  -->
+    <div class="services">
+      <div class="card">
+        <img src="./images/web-design.svg" />
+        <p class="green">Web Design</p>
+        <p class="grey">
+          Crafting websites that convert 
+          and grow your business
+          </p>
+      </div>
+      <div class="card">
+        <img src="./images/web-design.svg" />
+        <p class="green">App Design</p>
+        <p class="grey">
+          Beautifully designed apps that your users will love to use
+          </p>
+    </div>
+    <div class="card">
+        <img src="./images/web-design.svg" />
+        <p class="green">UX Design</p>
+        <p class="grey">
+          Crafting websites that convert and grow your business
+          </p>
+    </div>
+    </div>
+    
+    <div class="mobile-menu" id="mobile-menu">
+      <ul>
+        <li>Home</li>
+        <li>Case Studies</li>
+        <li>About us</li>
+      </ul>
+      <button class="navbar-button mobile-btn">Book Call</button>
+    </div>
+
+
+    <script src="app.js"></script>
+  </body>
+</html>;
+
